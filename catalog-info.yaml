@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tap-backend
+  description: Monitor d'Acces
+  tags:
+    - java
+    - service
+spec:
+  type: service
+  lifecycle: production
+  owner: is3@catsalut.cat
+  system: TAP
+
