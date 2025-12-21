@@ -26,6 +26,14 @@ spec:
     - resource:is3database
 ---
 apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: is3dev
+spec:
+  type: team
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: tap-api
