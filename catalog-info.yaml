@@ -13,6 +13,10 @@ metadata:
   tags:
     - java
     - service
+  links:
+    - url: https://prerproduccio.is3.intranet.gencat.cat/MonitorAcces
+      title: PRE
+      icon: website
 spec:
   type: service
   lifecycle: production
