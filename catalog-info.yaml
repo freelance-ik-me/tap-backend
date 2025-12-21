@@ -13,10 +13,12 @@ metadata:
   tags:
     - java
     - service
-  links:
-    - url: https://prerproduccio.is3.intranet.gencat.cat/MonitorAcces
-      title: PRE
-      icon: website
+  annotations:
+    version-matrix.io/local-url: "http://localhost:8888/local/version"
+    version-matrix.io/conso-url: "http://localhost:8888/conso/version"
+    version-matrix.io/pre-url: "http://localhost:8888/pre/version"
+    version-matrix.io/int-url: "http://localhost:8888/int/version"
+    version-matrix.io/pro-url: "http://localhost:8888/pro/version"
 spec:
   type: service
   lifecycle: production
