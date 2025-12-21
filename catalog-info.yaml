@@ -20,3 +20,13 @@ spec:
   system: TAP
   providesApis:  # Links this component as owning an API
     - tap-api
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: is3dev
+spec:
+  type: team
+  profile:
+    displayName: IS3 Developers
+    email: is3team@catsalut.cat
