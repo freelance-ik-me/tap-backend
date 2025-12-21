@@ -21,12 +21,3 @@ spec:
   providesApis:
     - tap-api
 ---
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: is3devs
-spec:
-  type: team
-  profile:
-    displayName: IS3 Developers
----
