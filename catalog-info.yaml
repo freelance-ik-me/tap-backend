@@ -35,4 +35,4 @@ spec:
   lifecycle: production
   owner: is3dev
   definition:  # Points to actual spec, e.g., OpenAPI file
-    $text: https://raw.githubusercontent.com/openapitools/openapi-generator/master/modules/openapi-generator/src/test/resources/3_0/petstore.yaml
+    $text: https://github.com/freelance-ik-me/tap-backend/edit/main/petstore.yaml
