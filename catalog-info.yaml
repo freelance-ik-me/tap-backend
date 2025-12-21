@@ -31,12 +31,6 @@ metadata:
   name: is3devs
   description: IS3 Developers
 spec:
-  type: business-unit
-  profile:
-    displayName: Infrastructure
-    email: infrastructure@example.com
-    picture: https://example.com/groups/bu-infrastructure.jpeg
-  parent: ops
+  type: team
   children: []
-  members: []
 ---
