@@ -24,3 +24,15 @@ spec:
     - odm-api
   dependsOn:
     - resource:is3database
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: tap-api
+  description: Backend API of TAP
+spec:
+  type: openapi
+  lifecycle: production
+  owner: is3dev
+  definition:  # Points to actual spec, e.g., OpenAPI file
+    $text: https://raw.githubusercontent.com/openapitools/openapi-generator/master/modules/openapi-generator/src/test/resources/3_0/petstore.yaml
