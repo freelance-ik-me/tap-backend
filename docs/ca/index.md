@@ -25,3 +25,7 @@ Aquest lloc de TechDocs és una demo configurada per construir-se i servir-se am
 
 > Nota: Aquest és un exemple mínim per demostrar TechDocs. Amplia'l amb més pàgines i diagrames segons calgui.
 
+---
+
+**Cambiar idioma:** [🇪🇸 Español](../es/index.md)
+

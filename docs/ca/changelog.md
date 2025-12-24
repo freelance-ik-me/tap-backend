@@ -7,4 +7,9 @@
 - Afegit el scaffolding de TechDocs (`mkdocs.yml`, pàgines a `docs/`)
 - Actualitzada l'entitat del catàleg amb `backstage.io/techdocs-ref`
 - Documentació inicial d'arquitectura i operacions
+- Suport multiidioma (espanyol/català) sense plugins automàtics
+
+---
+
+**Cambiar idioma:** [🇪🇸 Español](../es/changelog.md)
 

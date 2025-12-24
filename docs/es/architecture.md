@@ -1,4 +1,4 @@
-# Arquitectura
+># Arquitectura
 
 El Backend de TAP es un servicio dentro del sistema `TAP` que proporciona APIs a clientes e integra servicios externos.
 
@@ -27,3 +27,7 @@ Clientes ──► TAP Backend ──► is3database
 - Fiabilidad: Ciclo de vida de producción
 - Observabilidad: Logging y métricas
 - Escalabilidad: Escalado horizontal detrás de un balanceador de carga
+
+---
+
+**Cambiar idioma:** [🇨🇦 Català](../ca/architecture.md)

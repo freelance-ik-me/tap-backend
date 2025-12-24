@@ -26,3 +26,7 @@ Utilitza logging estructurat amb nivells: `info`, `warn`, `error`. A Backstage, 
 - Publicador: `local`
 
 Backstage construeix aquests documents sota demanda quan obres la pestanya TechDocs del component `tap-backend`.
+
+---
+
+**Cambiar idioma:** [🇪🇸 Español](../es/operations.md)

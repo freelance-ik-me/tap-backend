@@ -24,3 +24,7 @@ Este sitio de TechDocs es una demo configurada para construirse y servirse con B
 - Registro de cambios: Ejemplos de cambios con fines de demostración.
 
 > Nota: Este es un ejemplo mínimo para demostrar TechDocs. Amplíalo con más páginas y diagramas según sea necesario.
+
+---
+
+**Cambiar idioma:** [🇨🇦 Català](../ca/index.md)

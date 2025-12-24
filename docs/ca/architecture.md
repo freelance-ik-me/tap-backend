@@ -27,3 +27,7 @@ Clients ──► TAP Backend ──► is3database
 - Fiabilitat: Cicle de vida de producció
 - Observabilitat: Logging i mètriques
 - Escalabilitat: Escalat horitzontal darrere d'un balancejador de càrrega
+
+---
+
+**Cambiar idioma:** [🇪🇸 Español](../es/architecture.md)
