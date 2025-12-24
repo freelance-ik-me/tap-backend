@@ -1,15 +1,45 @@
 # TAP Backend TechDocs
 
-La documentación del backend se sirve con MkDocs/TechDocs y ofrece dos versiones con selector manual:
+La documentación se organiza en **dos idiomas independientes**: **Español** y **Català**. Cada idioma tiene su propia estructura y configuración de MkDocs sin mezclarlas.
 
-- **Català** (menú `Català` en la navegación). Navega a `ca/index.md` y sucesivas páginas.
-- **Español** (menú `Español` en la navegación). Navega a `es/index.md` y sucesivas páginas.
-
-Para construir el sitio localmente:
+## Estructura
 
 ```
-pip install mkdocs
-mkdocs build
+docs/
+├── es/
+│   ├── index.md
+│   ├── architecture.md
+│   ├── operations.md
+│   └── changelog.md
+└── ca/
+    ├── index.md
+    ├── architecture.md
+    ├── operations.md
+    └── changelog.md
 ```
 
-Los archivos en `docs/ca` y `docs/es` se mantienen separados para cada idioma y se enlazan desde la configuración de `mkdocs.yml` sin usar detección automática.
+## Configuración
+
+- `mkdocs.yml` → Configuración predeterminada (Español)
+- `mkdocs.es.yml` → Configuración explícita para Español
+- `mkdocs.ca.yml` → Configuración explícita para Català
+
+## Construcción
+
+Construir **ambos idiomas** automáticamente:
+
+```bash
+./build-docs.sh
+```
+
+O construir cada uno por separado:
+
+```bash
+# Español
+mkdocs build -f mkdocs.es.yml
+
+# Català
+mkdocs build -f mkdocs.ca.yml
+```
+
+Los archivos estáticos se generan en `site/es/` y `site/ca/` y **no se guardan en el repositorio** (ver `.gitignore`).
