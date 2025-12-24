@@ -1,29 +1,29 @@
-# Architecture
+# Arquitectura
 
-The TAP Backend is a service within the `TAP` system that provides APIs to clients and integrates with external services.
+El Backend de TAP es un servicio dentro del sistema `TAP` que proporciona APIs a clientes e integra servicios externos.
 
-## Context
+## Contexto
 
-- Provides API: `tap-api`
-- Consumes API: `odm-api`
-- Depends on: `resource:is3database`
+- Proporciona API: `tap-api`
+- Consume API: `odm-api`
+- Depende de: `resource:is3database`
 
-## High-Level Diagram (Conceptual)
+## Diagrama de alto nivel (Conceptual)
 
 ```text
-Clients ──► TAP Backend ──► is3database
+Clientes ──► TAP Backend ──► is3database
             │
             └──► odm-api
 ```
 
-## Responsibilities
+## Responsabilidades
 
-- Authentication and request routing
-- Business logic for access monitoring
-- Persistence and data retrieval
+- Autenticación y enrutado de peticiones
+- Lógica de negocio para el monitoreo de accesos
+- Persistencia y recuperación de datos
 
-## Non-Functional Requirements
+## Requisitos no funcionales
 
-- Reliability: Production lifecycle
-- Observability: Logging and metrics
-- Scalability: Horizontal scaling behind a load balancer
+- Fiabilidad: Ciclo de vida de producción
+- Observabilidad: Logging y métricas
+- Escalabilidad: Escalado horizontal detrás de un balanceador de carga

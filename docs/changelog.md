@@ -1,9 +1,9 @@
-# Changelog (Demo)
+# Registro de cambios (Demo)
 
-> This is an illustrative changelog for demo purposes.
+> Este es un registro de cambios ilustrativo con fines de demostración.
 
 ## 2025-12-24
 
-- Added TechDocs scaffolding (`mkdocs.yml`, `docs/` pages)
-- Updated catalog entity with `backstage.io/techdocs-ref`
-- Initial architecture and operations documentation
+- Añadido el scaffolding de TechDocs (`mkdocs.yml`, páginas en `docs/`)
+- Actualizada la entidad del catálogo con `backstage.io/techdocs-ref`
+- Documentación inicial de arquitectura y operaciones

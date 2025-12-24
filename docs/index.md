@@ -1,26 +1,26 @@
-# TAP Backend
+# Backend de TAP
 
-Welcome to the TAP Backend documentation.
+Bienvenido/a a la documentación del Backend de TAP.
 
-This TechDocs site is a demo configured to be built and served by Backstage with the `local` builder and `local` publisher. The content lives in the `tap-backend` repository and is referenced by the Backstage catalog using the `backstage.io/techdocs-ref: dir:.` annotation.
+Este sitio de TechDocs es una demo configurada para construirse y servirse con Backstage usando el constructor `local` y el publicador `local`. El contenido vive en el repositorio `tap-backend` y se referencia desde el catálogo de Backstage mediante la anotación `backstage.io/techdocs-ref: dir:.`.
 
-## Overview
+## Descripción general
 
-- Component: `tap-backend`
-- System: `TAP`
-- Language: Java
-- Lifecycle: Production
+- Componente: `tap-backend`
+- Sistema: `TAP`
+- Lenguaje: Java
+- Ciclo de vida: Producción
 
-## Getting Started
+## Primeros pasos
 
-1. Open the `tap-backend` component page in Backstage.
-2. Click the TechDocs tab; Backstage will build these docs automatically.
-3. Changes to Markdown files are picked up on refresh during development.
+1. Abre la página del componente `tap-backend` en Backstage.
+2. Haz clic en la pestaña TechDocs; Backstage construirá estos documentos automáticamente.
+3. Los cambios en archivos Markdown se reflejan al actualizar en desarrollo.
 
-## Contents
+## Contenido
 
-- Architecture: High-level design and dependencies.
-- Operations: Running locally, configuration, and endpoints.
-- Changelog: Example changes for demo purposes.
+- Arquitectura: Diseño de alto nivel y dependencias.
+- Operaciones: Ejecución local, configuración y endpoints.
+- Registro de cambios: Ejemplos de cambios con fines de demostración.
 
-> Note: This is a minimal example to demonstrate TechDocs. Extend with more pages and diagrams as needed.
+> Nota: Este es un ejemplo mínimo para demostrar TechDocs. Amplíalo con más páginas y diagramas según sea necesario.

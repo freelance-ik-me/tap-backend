@@ -1,28 +1,28 @@
-# Operations
+# Operaciones
 
-## Running Locally (Demo)
+## Ejecución local (Demo)
 
-This repository includes a TechDocs demo only. The service runtime is out of scope here, but the following conventions apply:
+Este repositorio incluye solo una demo de TechDocs. La ejecución del servicio queda fuera de alcance aquí, pero se aplican las siguientes convenciones:
 
-### Environment Variables
+### Variables de entorno
 
-- `JAVA_OPTS`: JVM options
-- `DB_URL`: Database connection string
-- `API_BASE_URL`: Base URL for external APIs
+- `JAVA_OPTS`: Opciones de la JVM
+- `DB_URL`: Cadena de conexión a la base de datos
+- `API_BASE_URL`: URL base para APIs externas
 
-### Health & Readiness Endpoints
+### Endpoints de salud y preparación
 
 - `GET /health`
 - `GET /ready`
 
 ### Logging
 
-Use structured logging with levels: `info`, `warn`, `error`. In Backstage, set `logger.level` to `debug` during development to inspect catalog and TechDocs behavior.
+Usa logging estructurado con niveles: `info`, `warn`, `error`. En Backstage, establece `logger.level` en `debug` durante desarrollo para inspeccionar el comportamiento del catálogo y de TechDocs.
 
-## Backstage TechDocs
+## TechDocs en Backstage
 
-- Builder: `local`
-- Generator: `docker`
-- Publisher: `local`
+- Constructor: `local`
+- Generador: `docker`
+- Publicador: `local`
 
-Backstage builds these docs on demand when you open the TechDocs tab for the `tap-backend` component.
+Backstage construye estos documentos bajo demanda cuando abres la pestaña TechDocs del componente `tap-backend`.
