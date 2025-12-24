@@ -2,10 +2,16 @@ site_name: Documentación del Backend de TAP
 site_description: Demo de documentación para el Backend de TAP
 repo_url: https://github.com/freelance-ik-me/tap-backend
 nav:
-  - Inicio: index.md
-  - Arquitectura: architecture.md
-  - Operaciones: operations.md
-  - Registro de cambios: changelog.md
+  - Català:
+    - Inici: ca/index.md
+    - Arquitectura: ca/architecture.md
+    - Operacions: ca/operations.md
+    - Registre de canvis: ca/changelog.md
+  - Español:
+    - Inicio: es/index.md
+    - Arquitectura: es/architecture.md
+    - Operaciones: es/operations.md
+    - Registro de cambios: es/changelog.md
 plugins:
   - techdocs-core
 markdown_extensions:
